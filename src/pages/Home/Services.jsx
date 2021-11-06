@@ -13,17 +13,19 @@ const cards = [
     back: {
       image: uniforms_image,
       heading: "Uniforms",
-      paragraph: "At Manhattan Designer LLC we strongly believe that uniforms improve the image of a company. We understand that customer oriented employees should represent their company in the best and most elegant way possible. Therefore, we strive to provide the best quality and service for our clients needs. Some of the industries we provide uniforms to include: Hotels, Hospitals, Offices, Clinics, Salons, Showrooms, Department Stores, Workshops, & Numerous Other Industries",
+      paragraph:
+        "At Manhattan Designer LLC we strongly believe that uniforms improve the image of a company. We understand that customer oriented employees should represent their company in the best and most elegant way possible. Therefore, we strive to provide the best quality and service for our clients needs. Some of the industries we provide uniforms to include: Hotels, Hospitals, Offices, Clinics, Salons, Showrooms, Department Stores, Workshops, & Numerous Other Industries",
     },
   },
   {
     id: "2",
     variant: "hover",
-    front: { title: "Embroidery", background: embroidery_image},
+    front: { title: "Embroidery", background: embroidery_image },
     back: {
       image: embroidery_image,
       heading: "Embroidery",
-      paragraph: "The best way for a company to represent itself through its employees is to have the company logo embroidered on the uniforms. We provide computerized Embroidered Logos, Designs, & Patches on any apparel produced by us or provided by the customer allowing for an enhancement of design and style.",
+      paragraph:
+        "The best way for a company to represent itself through its employees is to have the company logo embroidered on the uniforms. We provide computerized Embroidered Logos, Designs, & Patches on any apparel produced by us or provided by the customer allowing for an enhancement of design and style.",
     },
   },
   {
@@ -33,7 +35,8 @@ const cards = [
     back: {
       image: events_image,
       heading: "Event Apparels",
-      paragraph: "Dubai is considered as one of the premier business event destinations around the world. Therefore, it is our goal to provide the best quality and service to this industry in order to help businesses represent themselves in the best way possible. We provide a multitude of items for events including: Uniforms, Event T-shirts, Caps, Table Linens, Table Runners, Chair Covers, Napkins, Sashes, & Embroidery.",
+      paragraph:
+        "Dubai is considered as one of the premier business event destinations around the world. Therefore, it is our goal to provide the best quality and service to this industry in order to help businesses represent themselves in the best way possible. We provide a multitude of items for events including: Uniforms, Event T-shirts, Caps, Table Linens, Table Runners, Chair Covers, Napkins, Sashes, & Embroidery.",
     },
   },
   {
@@ -43,7 +46,8 @@ const cards = [
     back: {
       image: alterations_image,
       heading: "Alterations",
-      paragraph: "With fashion, the more comfortable you feel in your clothes, the more confident you will be. Our team of knowledgeable and experienced tailors can provide insightful solutions to fix and alter any piece of clothing to make them better fitting and much more comfortable to wear. We alter a various amount of items including: Uniforms, Suits, Dresses, Jackets, Casual Clothes, & Various Other Garments.",
+      paragraph:
+        "With fashion, the more comfortable you feel in your clothes, the more confident you will be. Our team of knowledgeable and experienced tailors can provide insightful solutions to fix and alter any piece of clothing to make them better fitting and much more comfortable to wear. We alter a various amount of items including: Uniforms, Suits, Dresses, Jackets, Casual Clothes, & Various Other Garments.",
     },
   },
 ];
@@ -53,7 +57,9 @@ class ServicesComponent extends React.Component {
     return (
       <div className="w3-row w3-padding-32" id="services">
         {cards.map((card) => (
-          <FlipCard key={card.id} card={card} />
+          <div className="w3-col">
+            <FlipCard key={card.id} card={card} />
+          </div>
         ))}
       </div>
     );

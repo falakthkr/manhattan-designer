@@ -42,7 +42,7 @@ function FlipCard({ card: { id, variant, front, back } }) {
           <div className="card-body position-relative d-flex justify-content-center align-items-center">
             <div
               className="
-              w3-display-bottomleft w3-container w3-black w3-padding-16 w3-hide-small
+              w3-display-bottomleft w3-container w3-black w3-padding-16
             "
             >
               <h4>{front.title}</h4>
