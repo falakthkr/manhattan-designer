@@ -1,10 +1,10 @@
 import React from "react";
-import FooterComponent from "../components/Home/Footer";
-import NavbarComponent from "../components/Home/Navbar";
-import CarouselComponent from "../components/Home/Carousel";
-import AboutComponent from "../components/Home/About";
-import ServicesComponent from "../components/Home/Services";
-import ContactComponent from "../components/Home/Contact";
+import FooterComponent from "../pages/Home/Footer";
+import NavbarComponent from "../pages/Home/Navbar";
+import CarouselComponent from "../pages/Home/Carousel";
+import AboutComponent from "../pages/Home/About";
+import ServicesComponent from "../pages/Home/Services";
+import ContactComponent from "../pages/Home/Contact";
 
 class Home extends React.Component {
   render() {

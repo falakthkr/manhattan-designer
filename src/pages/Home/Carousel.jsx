@@ -1,6 +1,6 @@
 import React from "react";
-import cover_image from "../../assets/manhattan-cover.jpeg";
-import logo from "../../assets/Manhattan logo.jpg";
+import cover_image from "../../assets/images/manhattan-cover.jpeg";
+import logo from "../../assets/images/Manhattan logo.jpg";
 
 class CarouselComponent extends React.Component {
   render() {
