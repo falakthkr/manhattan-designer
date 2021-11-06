@@ -1,15 +1,15 @@
 .App {
-    text-align: center;
+    text-align: center
 }
 
 .App-logo {
     height: 40vmin;
-    pointer-events: none;
+    pointer-events: none
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion:no-preference) {
     .App-logo {
-        animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 20s linear
     }
 }
 
@@ -21,19 +21,19 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: #fff
 }
 
 .App-link {
-    color: #61dafb;
+    color: #61dafb
 }
 
 @keyframes App-logo-spin {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0deg)
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(360deg)
     }
 }
 
@@ -137,11 +137,11 @@ sup {
 }
 
 sub {
-    bottom: -0.25em
+    bottom: -.25em
 }
 
 sup {
-    top: -0.5em
+    top: -.5em
 }
 
 figure {
@@ -176,7 +176,7 @@ optgroup {
 }
 
 optgroup {
-    font-weight: bold
+    font-weight: 700
 }
 
 button,
@@ -212,7 +212,7 @@ button:-moz-focusring,
 }
 
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 1px solid silver;
     margin: 0 2px;
     padding: .35em .625em .75em
 }
@@ -252,9 +252,6 @@ textarea {
     -webkit-appearance: button;
     font: inherit
 }
-
-
-/* End extract */
 
 html,
 body {
@@ -413,7 +410,7 @@ a {
 }
 
 .w3-btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19)
 }
 
 .w3-btn,
@@ -430,7 +427,7 @@ a {
 .w3-btn:disabled,
 .w3-button:disabled {
     cursor: not-allowed;
-    opacity: 0.3
+    opacity: .3
 }
 
 .w3-disabled *,
@@ -486,7 +483,7 @@ a {
 }
 
 .w3-ripple:active {
-    opacity: 0.5
+    opacity: .5
 }
 
 .w3-ripple {
@@ -593,7 +590,7 @@ a {
     height: 100%;
     overflow: auto;
     background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, .4)
 }
 
 .w3-modal-content {
@@ -980,7 +977,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
     z-index: 2
 }
 
@@ -1021,7 +1018,7 @@ a {
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
-    -ms-transform: translate(-0%, -50%)
+    -ms-transform: translate(0%, -50%)
 }
 
 .w3-display-right {
@@ -1101,7 +1098,7 @@ a {
 
 .w3-container,
 .w3-panel {
-    padding: 0.01em 16px
+    padding: .01em 16px
 }
 
 .w3-panel {
@@ -1133,12 +1130,12 @@ a {
 
 .w3-card,
 .w3-card-2 {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
 }
 
 .w3-card-4,
 .w3-hover-shadow:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .2), 0 4px 20px 0 rgba(0, 0, 0, .19)
 }
 
 .w3-spin {
@@ -1270,7 +1267,7 @@ a {
 
 .w3-opacity,
 .w3-hover-opacity:hover {
-    opacity: 0.60
+    opacity: .6
 }
 
 .w3-opacity-off,
@@ -1279,11 +1276,11 @@ a {
 }
 
 .w3-opacity-max {
-    opacity: 0.25
+    opacity: .25
 }
 
 .w3-opacity-min {
-    opacity: 0.75
+    opacity: .75
 }
 
 .w3-greyscale-max,
@@ -1505,9 +1502,6 @@ a {
     box-shadow: none!important
 }
 
-
-/* Colors */
-
 .w3-amber,
 .w3-hover-amber:hover {
     color: #000!important;
@@ -1649,7 +1643,7 @@ a {
 }
 
 .boldText {
-    color: #9F1C22!important;
+    color: #9F1C22!important
 }
 
 .w3-grey,
