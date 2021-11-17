@@ -54,7 +54,7 @@ function FlipCard({ card: { id, variant, front, back } }) {
         </div>
         <div className="card back">
           <div className="card-body d-flex flex-column align-items-center">
-            <img src={back.image} alt={back.brand} height={"30%"} />
+            <img src={back.image} alt={back.brand} height={"30%"} style={{marginTop: '10%'}} />
             <div className="d-flex flex-column justify-content-center align-items-center">
               <p className="brand">{back.heading}</p>
               <p>{back.paragraph}</p>

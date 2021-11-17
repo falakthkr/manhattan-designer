@@ -5,7 +5,7 @@ class AboutComponent extends React.Component {
     return (
       <div>
         <h2 className="w3-wide">ABOUT US</h2>
-        <p className="w3-justify">
+        <p className="w3-justify darkerText">
           We are known for our perfection in making the finest custom commercial
           and industrial uniforms in U.A.E. We started operations in 1993 and
           have since grown into a leading commercial and industrial uniform
@@ -32,7 +32,7 @@ class AboutComponent extends React.Component {
           </b>{" "}
           With decades worth of experience, we completely understand our clients
           needs and their urgency as well. This is what has helped
-          <b className="boldText">Manhattan Designer LLC</b> become a leading custom UNIFORM
+          <b className="boldText"> Manhattan Designer LLC</b> become a leading custom UNIFORM
           manufacturer in U.A.E.
         </p>
         <hr />

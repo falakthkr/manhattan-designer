@@ -1,5 +1,6 @@
 .App {
-    text-align: center
+    text-align: center;
+    font-weight: 550;
 }
 
 .App-logo {
@@ -156,7 +157,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em
 }
 
@@ -255,7 +256,7 @@ textarea {
 
 html,
 body {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -289,19 +290,19 @@ h6 {
 }
 
 .w3-serif {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .w3-sans-serif {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .w3-cursive {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .w3-monospace {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -310,7 +311,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
@@ -1107,16 +1108,16 @@ a {
 }
 
 a {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .w3-code,
 .w3-codespan {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px
 }
 

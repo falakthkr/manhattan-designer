@@ -11,25 +11,22 @@ class Contact extends React.Component {
         <h2 className="w3-wide w3-center ">CONTACT</h2>
         <div className="w3-row w3-padding-32 ">
           <div className="w3-col m6 w3-large w3-margin-bottom ">
-            <i className="fa fa-map-marker" style={{ maxWidth: "30px" }}></i>
+            <i className="fa fa-map-marker" style={{ maxWidth: "30px" }}></i>{" "}
             Sheikh Hamdan Colony, Street 13B, Blue Block, Building #10, Shop #2,
             Karama, Dubai, UAE. P.O.Box 50098.
             <br />
-            <i className="fa fa-phone" style={{ maxWidth: "30px" }}></i> Phone:
+            <i className="fa fa-phone" style={{ maxWidth: "30px" }}></i>
             +971-4-3968010
             <br />
             <i className="fa fa-whatsapp" style={{ maxWidth: "30px" }}></i>{" "}
-            Mobile/WhatsApp:{" "}
             <a href="https://api.whatsapp.com/send/?phone=%2B971529940491&text&app_absent=0">
               +971-52-9940491
             </a>
             <br />
             <i className=" fa fa-envelope " style={{ maxWidth: "30px" }}>
-              {" "}
             </i>{" "}
-            Email:
             <a href="mailto:sales@manhattan-designer.com ">
-              sales@manhattan-designer.com
+               sales@manhattan-designer.com
             </a>
             <br />
           </div>
