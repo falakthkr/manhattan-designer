@@ -1,9 +1,9 @@
 import React from "react";
-import uniforms_image from "../../assets/images/35992210_m.jpg";
-import embroidery_image from "../../assets/images/40139640_m.jpg";
-import events_image from "../../assets/images/44317661_m.jpg";
-import alterations_image from "../../assets/images/37976579_m.jpg";
-import FlipCard from "../../components/FlipCard";
+import uniforms_image from "../assets/images/35992210_m.jpg";
+import embroidery_image from "../assets/images/40139640_m.jpg";
+import events_image from "../assets/images/44317661_m.jpg";
+import alterations_image from "../assets/images/37976579_m.jpg";
+import FlipCard from "../components/FlipCard";
 
 const cards = [
   {
@@ -54,15 +54,7 @@ const cards = [
 
 class ServicesComponent extends React.Component {
   render() {
-    return (
-      <div className="w3-row w3-padding-32" id="services">
-        {cards.map((card) => (
-          <div className="w3-col">
-            <FlipCard key={card.id} card={card} />
-          </div>
-        ))}
-      </div>
-    );
+    return <div id="services"></div>;
   }
 }
 
