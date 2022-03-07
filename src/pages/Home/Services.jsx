@@ -4,6 +4,7 @@ import embroidery_image from "../../assets/images/40139640_m.jpg";
 import events_image from "../../assets/images/44317661_m.jpg";
 import alterations_image from "../../assets/images/37976579_m.jpg";
 import FlipCard from "../../components/FlipCard";
+import { Row, Col, Divider } from "antd";
 
 const cards = [
   {
@@ -40,7 +41,7 @@ const cards = [
     },
   },
   {
-    id: "3",
+    id: "4",
     variant: "hover",
     front: { title: "Alterations", background: alterations_image },
     back: {
@@ -55,12 +56,17 @@ const cards = [
 class ServicesComponent extends React.Component {
   render() {
     return (
-      <div className="w3-row w3-padding-32" id="services">
-        {cards.map((card) => (
-          <div className="w3-col">
-            <FlipCard key={card.id} card={card} />
-          </div>
-        ))}
+      <div>
+        <Divider orientation="center">
+          <h3 style={{ color: "maroon" }}>Services</h3>
+        </Divider>
+        <Row gutter={[24, 24]}>
+          {cards.map((card) => (
+            <Col key={card.id} xs={24} md={12}>
+              <FlipCard card={card} />
+            </Col>
+          ))}
+        </Row>
       </div>
     );
   }

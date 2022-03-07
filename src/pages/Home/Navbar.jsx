@@ -1,28 +1,28 @@
 import React from "react";
+import { Menu } from 'antd';
+import { PhoneOutlined, AppstoreOutlined, InfoCircleOutlined } from '@ant-design/icons';
 
-class NavbarComponent extends React.Component {
+class Navbar extends React.Component {
+  state = {
+    current: 'mail',
+  };
+
   render() {
+    const { current } = this.state;
     return (
-      <div className="w3-top">
-        <div className="w3-bar w3-white w3-wide w3-padding w3-card">
-          <a href="index.html" className="w3-bar-item w3-button">
-            <b>Manhattan Designer LLC</b>
-          </a>
-          <div className="w3-right w3-hide-small">
-            <a href="#about" className="w3-bar-item w3-button">
-              Who We Are
-            </a>
-            <a href="#services" className="w3-bar-item w3-button">
-              What We Do
-            </a>
-            <a href="#contact" className="w3-bar-item w3-button">
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </div>
+      <Menu selectedKeys={[current]} mode="horizontal">
+        <Menu.Item key="about" href="#about" style={{color: 'maroon'}} icon={<InfoCircleOutlined style={{ fontSize: '16px', color:'maroon' }} />}>
+          Who We Are
+        </Menu.Item>
+        <Menu.Item key="services" href="#services" style={{color: 'maroon'}} icon={<AppstoreOutlined style={{ fontSize: '16px', color:'maroon' }} />}>
+          What We Do
+        </Menu.Item>
+        <Menu.Item key="contact" href="#contact" style={{color: 'maroon'}} icon={<PhoneOutlined style={{ fontSize: '16px', color:'maroon' }} />}>
+          Contact Us
+        </Menu.Item>
+      </Menu>
     );
   }
 }
 
-export default NavbarComponent;
+export default Navbar;

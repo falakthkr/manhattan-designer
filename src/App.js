@@ -1,4 +1,5 @@
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles.scss";
 import Home from "./views/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 
