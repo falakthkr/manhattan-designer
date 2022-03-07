@@ -11,14 +11,13 @@ const contentStyle = {
 };
 
 const AboutComponent = () => {
-  const [dotPosition, setDotPosition] = React.useState("top");
 
   return (
     <>
       <Divider orientation="center">
         <h3 style={{ color: "maroon" }}>About Us</h3>
       </Divider>
-      <Carousel dotPosition={dotPosition}>
+      <Carousel dotPosition="top">
         <div className="justify-content-center">
           <p style={contentStyle}>
             {" "}
